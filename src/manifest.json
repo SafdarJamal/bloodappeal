@@ -1,0 +1,21 @@
+{
+  "short_name": "BloodAppeal",
+  "name": "BloodAppeal",
+  "icons": [
+    {
+      "src": "./images/favicons/bloodappeal-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./images/favicons/bloodappeal-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "orientation": "any",
+  "display": "standalone",
+  "theme_color": "#343A40",
+  "background_color": "#0ABDE3"
+}
