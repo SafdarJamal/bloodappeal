@@ -1,6 +1,6 @@
 # BloodAppeal
 
-BloodAppeal is a Bootstrap 4 Template for Blood Bank Applications
+BloodAppeal is a Bootstrap 4 Template for Blood Bank Applications or Websites
 
 <p align="center">
   <img src="screenshot.png" alt='BloodAppeal in Action'>
