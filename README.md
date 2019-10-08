@@ -10,6 +10,12 @@ BloodAppeal is a Bootstrap 4 Template for Blood Bank Application
 
 Let's make it easy! Just download this template, use it on your project.
 
+## Tech Stack
+
+- HTML
+- CSS
+- Bootstrap
+
 ## Demo
 
 - [Home](https://bloodappeal.surge.sh/)
