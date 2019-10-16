@@ -19,8 +19,11 @@ Let's make it easy! Just download this template, use it on your project.
 ## Demo
 
 - [Home](https://bloodappeal.surge.sh/)
-- [Blood Facts](https://bloodappeal.surge.sh/pages/blood-facts.html)
-- [Blood Tips](https://bloodappeal.surge.sh/pages/blood-tips.html)
+- [Blood facts](https://bloodappeal.surge.sh/pages/blood-facts.html)
+- [Blood tips](https://bloodappeal.surge.sh/pages/blood-tips.html)
+- [Sign up](https://bloodappeal.surge.sh/pages/signup.html)
+- [Log in](https://bloodappeal.surge.sh/pages/login.html)
+- [Reset password](https://bloodappeal.surge.sh/pages/reset-password.html)
 
 ## License
 
