@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Blood Facts - BloodAppeal</title>
+    <title>Log in - BloodAppeal</title>
     <meta name="theme-color" content="#343A40" />
     <link rel="manifest" href="../manifest.json" />
     <link rel="shortcut icon" href="../favicon.png" type="image/x-icon" />
@@ -35,110 +35,62 @@
             BloodAppeal
           </h1>
         </a>
-        <button
-          class="navbar-toggler collapsed"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarCollapse"
-          aria-controls="navbarCollapse"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link h5" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link h5" href="./blood-facts.html"
-                >Blood Facts <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link h5" href="./blood-tips.html">Blood Tips</a>
-            </li>
-          </ul>
-          <a href="#" class="btn btn-info nav-btn" role="button">LOGIN</a>
-          <a href="#" class="btn btn-outline-secondary nav-btn" role="button"
-            >SIGNUP</a
-          >
-        </div>
       </nav>
     </header>
 
-    <main role="main">
-      <div class="jumbotron f-j1">
-        <div class="container-fluid">
-          <h1 class="display-3 f-h1">Blood Facts</h1>
-          <ul class="list-group shd">
-            <li class="list-group-item list-group-item-action li-hov">
-              Blood is the fluid that maintains life. It circulates through the
-              body's heart, arteries, veins and capillaries.
-            </li>
-            <li class="list-group-item list-group-item-action li-hov">
-              Blood carries to the body nourishment, electrolytes, hormones,
-              vitamins, antibodies, heat, and oxygen. Needless to say, its quite
-              essential to life !
-            </li>
-            <li class="list-group-item list-group-item-action li-hov">
-              Did you know ? A woman has approximately 4.5 liters of blood in
-              her body, while men have 5.6 liters.
-            </li>
-            <li class="list-group-item list-group-item-action li-hov">
-              By donating just one pint of blood, four lives can be saved.
-              Imagine that!
-            </li>
-            <li class="list-group-item list-group-item-action li-hov">
-              Blood carries away from the body waste matter and carbon dioxide.
-            </li>
-            <li class="list-group-item list-group-item-action li-hov">
-              Blood fights against infection and helps heal wounds, keeping you
-              healthy.
-            </li>
-            <li class="list-group-item list-group-item-action li-hov">
-              Fun Fact ! Your blood takes a very long trip through your body. If
-              you could stretch out all of a human's blood vessels, they would
-              be about 60,000 miles long. That's enough to go around the world
-              twice.
-            </li>
-            <li class="list-group-item list-group-item-action li-hov">
-              Blood makes up about 7% of your body's weight.
-            </li>
-            <li class="list-group-item list-group-item-action li-hov">
-              Each day 400 gallons of recycled blood are pumped through the
-              kidneys.
-            </li>
-            <li class="list-group-item list-group-item-action li-hov">
-              A newborn baby has about one cup of blood in his or her body.
-            </li>
-            <li class="list-group-item list-group-item-action li-hov">
-              White blood cells are the body's primary defence against
-              infection.
-            </li>
-            <li class="list-group-item list-group-item-action li-hov">
-              Granulocytes, a type of white blood cell, roll along blood vessel
-              walls to search and destroy bacteria.
-            </li>
-            <li class="list-group-item list-group-item-action li-hov">
-              Red blood cells carry oxygen to the body's organs and tissues.
-            </li>
-            <li class="list-group-item list-group-item-action li-hov">
-              There are about one billion red blood cells in two to three drops
-              of blood.
-            </li>
-            <li class="list-group-item list-group-item-action li-hov">
-              Half your body's red blood cells are replaced every seven days.
-            </li>
-            <li class="list-group-item list-group-item-action li-hov">
-              Red blood cells live about 120 days in the circulatory system.
-            </li>
-            <li class="list-group-item list-group-item-action li-hov">
-              Blood platelets help clotting and give those with leukemia and
-              other cancers a chance to live.
-            </li>
-          </ul>
+    <main id="form-container">
+      <div class="container col-md-4 mb-5">
+        <div class="card shadow rounded">
+          <div>
+            <h1 class="card-header text-center">Log in</h1>
+          </div>
+          <div class="card-body">
+            <form id="form">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  autofocus
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <a href="./reset-password.html" class="float-right"
+                  >Forgot Password?</a
+                >
+                <input
+                  type="password"
+                  id="password"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <br />
+              <button
+                type="button"
+                class="btn btn-info btn-lg btn-block submit-btn"
+              >
+                LOG ME IN
+              </button>
+              <div class="text-muted text-center m-1">OR</div>
+              <div>
+                <img class="fb-icon" src="../images/fb.png" />
+                <button
+                  id="fb-login"
+                  type="button"
+                  class="fb-btn btn btn-primary btn-lg btn-block submit-btn"
+                >
+                  Continue with Facebook
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="card-footer text-muted text-center">
+            Don't have an account? <a href="./signup.html">Create One</a>
+          </div>
         </div>
       </div>
     </main>

@@ -77,3 +77,42 @@ ul.shd {
 .li-hov:hover {
   border: 1px solid grey;
 }
+
+/* --------------- Forms --------------- */
+
+#form-container {
+  margin-top: 150px;
+  padding: 0px;
+}
+
+.or {
+  margin: 4px;
+}
+
+.fb-icon {
+  height: 36px;
+  width: 36px;
+  position: absolute;
+  bottom: 74px;
+  left: 28px;
+}
+
+#fb-login {
+  background-color: #3b5998;
+}
+
+@media only screen and (max-width: 360px) {
+  .fb-icon {
+    height: 34px;
+    width: 34px;
+    left: 22px;
+  }
+}
+
+.fb-btn {
+  background-color: #3b5998;
+}
+
+.submit-btn {
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.125);
+}
